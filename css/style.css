@@ -102,6 +102,7 @@ btn:visited {
 .btn:hover {
   transform: translateY(-3px);
   color: rgb(50, 170, 50);
+
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
