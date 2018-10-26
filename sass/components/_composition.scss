@@ -25,14 +25,14 @@
     }
 
     &:hover {
-      outline: 1.2rem solid $color-primary;
-      outline-offset: 2rem;
-      transform: scale(1.15);
+      outline: 1.1rem solid $color-primary;
+      outline-offset: 2.2rem;
+      transform: scale(1.05);
       box-shadow: 0 2.5rem 4rem rgba($color-black, 0.45);
       z-index: 20;
     }
   }
   &:hover &__photo:not(:hover) {
-    transform: scale(0.8);
+    transform: scale(0.95) translateY(-0.5rem);
   }
 }
