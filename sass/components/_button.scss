@@ -26,6 +26,9 @@
   &--animated {
     animation: moveInBottom 0.75s ease-out 1s;
     animation-fill-mode: backwards;
+    &:hover {
+      color: rgb(50, 170, 50);
+    }
   }
 
   &--white {
@@ -35,9 +38,17 @@
       background-color: $color-white;
     }
   }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+    &::after {
+      background-color: $color-primary;
+    }
+  }
+
   &:hover {
     transform: translateY(-0.3rem);
-    color: rgb(50, 170, 50);
 
     box-shadow: 0 10px 20px rgba($color-black, 0.2);
     &::after {
