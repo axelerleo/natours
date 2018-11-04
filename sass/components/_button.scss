@@ -1,15 +1,19 @@
 @import "../abstracts/variables";
 
 .btn {
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: 700;
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
+    border: none;
+    cursor: pointer;
   }
   &:after {
     height: 100%;
@@ -57,7 +61,9 @@
     }
   }
 
-  &:active {
+  &:active,
+  &:focus {
+    outline: none;
     transform: translateY(-0.1rem);
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
   }
