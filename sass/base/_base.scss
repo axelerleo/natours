@@ -1,3 +1,4 @@
+@import "../abstracts/variables";
 @import "../abstracts/mixins";
 
 *,
@@ -30,4 +31,9 @@ body {
   @include respond(tab-port) {
     padding: 0;
   }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
 }
