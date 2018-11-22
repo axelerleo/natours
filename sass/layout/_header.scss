@@ -8,7 +8,7 @@
       rgba($color-primary-light, 0.75),
       rgba($color-primary-dark, 0.75)
     ),
-    url("../../img/hero-small.jpg");
+    url("../img/hero-small.jpg");
   background-size: cover;
   background-position: top;
   @supports (-webkit-clip-path: polygon(0 0)) or (clip-path: polygon(0 0)) {
@@ -26,7 +26,7 @@
         rgba($color-primary-light, 0.75),
         rgba($color-primary-dark, 0.75)
       ),
-      url("../../img/hero.jpg");
+      url("../img/hero.jpg");
   }
 
   @include respond(phone) {
